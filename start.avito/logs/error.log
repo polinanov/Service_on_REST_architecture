@@ -1,0 +1,65 @@
+2019/10/08 15:10:27 [error] 6#6: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:14:45 [error] 6#6: *3 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:40:17 [emerg] 1#1: unknown directive "127.0.0.1" in /etc/nginx/conf.d/hello-dev.conf:8
+2019/10/08 15:41:06 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/hello-dev.conf:17
+2019/10/08 15:47:33 [error] 6#6: *3 open() "/var/www/hello.dev/generate" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /generate HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:47:33 [error] 6#6: *3 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:47:41 [error] 6#6: *5 open() "/var/www/hello.dev/api/generate" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/generate HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:47:51 [error] 6#6: *5 "/var/www/hello.dev/api/generate/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/generate/ HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:52:40 [error] 6#6: *8 "/var/www/hello.dev/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /retrieve/?id=121 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:53:08 [error] 6#6: *8 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 15:53:26 [error] 6#6: *8 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 16:22:42 [error] 6#6: *10 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 18:46:37 [error] 6#6: *1 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 18:46:39 [error] 6#6: *1 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 18:48:10 [error] 6#6: *3 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 18:55:57 [error] 6#6: *4 "/var/www/hello.dev/api/generate/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/generate/ HTTP/1.1", host: "127.0.0.1"
+2019/10/08 18:57:15 [error] 6#6: *5 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 19:12:23 [error] 6#6: *6 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 19:15:25 [error] 6#6: *7 "/var/www/hello.dev/api/retrieve/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /api/retrieve/?id=122 HTTP/1.1", host: "127.0.0.1"
+2019/10/08 19:15:25 [error] 6#6: *7 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2019/10/08 21:28:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/hello-dev.conf:17
+2019/10/08 21:30:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/hello-dev.conf:17
+2019/10/14 18:42:56 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 18:44:28 [emerg] 1#1: unknown directive "127.0.0.1" in /etc/nginx/conf.d/start.avito.conf:3
+2019/10/14 18:45:29 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 18:47:13 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 18:47:13 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/start.avito.conf:23
+2019/10/14 18:48:24 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 18:48:24 [emerg] 1#1: unknown directive "127.0.0.1" in /etc/nginx/conf.d/start.avito.conf:8
+2019/10/14 19:04:46 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:04:46 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/start.avito.conf:24
+2019/10/14 19:05:09 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:05:09 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/start.avito.conf:24
+2019/10/14 19:05:48 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:13:28 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:16:58 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:17:42 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:20:29 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:28:26 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:31:53 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:34:14 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:34:38 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:39:13 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:42:08 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 19:43:48 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 20:16:05 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 20:19:10 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 20:30:54 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 21:00:06 [emerg] 1#1: invalid number of arguments in "server" directive in /etc/nginx/conf.d/start.avito.conf:1
+2019/10/14 21:01:49 [emerg] 1#1: invalid number of arguments in "server" directive in /etc/nginx/conf.d/start.avito.conf:1
+2019/10/14 21:04:14 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 21:09:23 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.avito.conf:4
+2019/10/14 21:11:44 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/14 21:27:56 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/14 21:57:21 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/14 22:21:36 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 22:26:52 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 22:28:30 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/14 22:29:46 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 22:31:52 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 22:43:41 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/10/14 22:44:39 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/14 22:45:36 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/14 22:47:19 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4
+2019/10/15 11:13:47 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/start.dev.conf:4

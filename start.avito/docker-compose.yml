@@ -1,0 +1,40 @@
+version: '3.0'
+services:
+    nginx:
+        image: nginx:latest
+        ports:
+            - "80:80"
+            - "344:344"
+        volumes:
+            - ./hosts:/etc/nginx/conf.d
+            - ./www:/var/www
+            - ./logs:/var/log/nginx
+        networks:
+            - net
+        links:
+            - php
+    php:
+        build: ./images/php
+        links:
+            - mysql
+        volumes:
+            - ./www:/var/www
+        networks:
+            - net
+    mysql:
+        image: mysql:5.7
+        ports:
+            - "3306:3306"
+        command:
+            --init-file /mysql/init.sql
+        volumes:
+            - ./ini.sql:/mysql/init.sql
+        environment:
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+            - MYSQL_DATABASE=${MYSQL_DATABASE}
+            - MYSQL_USER=${MYSQL_USER}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD} 
+        networks:
+            - net
+networks:
+    net:
